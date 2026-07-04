@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "SpatialAIFlow"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+version: 0.1.0
+date-released: "2025-01-01"
+license: MIT
+repository-code: "https://github.com/SpatialAIFlow/SpatialAIFlow"
+url: "https://github.com/SpatialAIFlow/SpatialAIFlow"
+abstract: >-
+  SpatialAIFlow is a reproducible, end-to-end analysis pipeline for spatial
+  transcriptomics data. It integrates quality control, unsupervised clustering,
+  cell-type annotation, spatial statistics, ligand-receptor communication
+  analysis, histology-based image feature extraction, machine learning
+  classification, and multi-omics deconvolution into a single, documented
+  workflow built on the Scanpy/Squidpy ecosystem.
+keywords:
+  - spatial-transcriptomics
+  - bioinformatics
+  - single-cell
+  - scanpy
+  - squidpy
+  - visium
+  - computational-biology
+  - machine-learning
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: "TODO"

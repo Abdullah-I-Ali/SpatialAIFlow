@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <rect width="200" height="200" rx="40" fill="url(#logoGrad)" />
+  
+  <!-- Network / Cell representation -->
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- Central Node -->
+    <circle cx="100" cy="100" r="16" fill="#ffffff" />
+    <!-- Peripheral Nodes -->
+    <circle cx="60" cy="60" r="10" fill="none" />
+    <circle cx="140" cy="60" r="10" fill="none" />
+    <circle cx="60" cy="140" r="10" fill="none" />
+    <circle cx="140" cy="140" r="10" fill="none" />
+    <!-- Connections -->
+    <line x1="70" y1="70" x2="88" y2="88" />
+    <line x1="130" y1="70" x2="112" y2="88" />
+    <line x1="70" y1="130" x2="88" y2="112" />
+    <line x1="130" y1="130" x2="112" y2="112" />
+  </g>
+  
+  <!-- Outer spatial border dots -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="100" cy="30" r="4" />
+    <circle cx="170" cy="100" r="4" />
+    <circle cx="100" cy="170" r="4" />
+    <circle cx="30" cy="100" r="4" />
+  </g>
+</svg>

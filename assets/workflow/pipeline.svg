@@ -1,0 +1,114 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient for boxes -->
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    
+    <!-- Accent Colors -->
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+    <linearGradient id="accent4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <linearGradient id="accent5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+
+    <!-- Arrowhead -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8" />
+    </marker>
+  </defs>
+
+  <!-- Global Font Settings -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+
+    <!-- Node 1: Raw Data & QC -->
+    <g transform="translate(50, 150)">
+      <rect width="140" height="80" rx="8" fill="url(#boxGrad)" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="0" y="0" width="140" height="6" fill="url(#accent1)" rx="3" />
+      <text x="70" y="35" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">Data &amp; QC</text>
+      <text x="70" y="55" font-size="11" fill="#64748b" text-anchor="middle">Filtering &amp; Norm</text>
+      <text x="70" y="70" font-size="10" fill="#94a3b8" text-anchor="middle">Scanpy</text>
+    </g>
+
+    <!-- Path 1 -->
+    <path d="M 190 190 L 230 190" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Node 2: Dimensionality Reduction -->
+    <g transform="translate(230, 150)">
+      <rect width="140" height="80" rx="8" fill="url(#boxGrad)" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="0" y="0" width="140" height="6" fill="url(#accent2)" rx="3" />
+      <text x="70" y="35" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">Representation</text>
+      <text x="70" y="55" font-size="11" fill="#64748b" text-anchor="middle">PCA &amp; UMAP</text>
+      <text x="70" y="70" font-size="10" fill="#94a3b8" text-anchor="middle">Scanpy</text>
+    </g>
+
+    <!-- Path 2 Split -->
+    <path d="M 370 190 L 410 190" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)" />
+    
+    <!-- Node 3: Clustering & Annotation -->
+    <g transform="translate(410, 150)">
+      <rect width="150" height="80" rx="8" fill="url(#boxGrad)" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="0" y="0" width="150" height="6" fill="url(#accent3)" rx="3" />
+      <text x="75" y="35" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">Annotation</text>
+      <text x="75" y="55" font-size="11" fill="#64748b" text-anchor="middle">Leiden &amp; CellTypist</text>
+      <text x="75" y="70" font-size="10" fill="#94a3b8" text-anchor="middle">CellTypist</text>
+    </g>
+
+    <!-- Path 3 Split Up and Down -->
+    <path d="M 560 190 L 600 190 L 600 110 L 620 110" fill="none" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 560 190 L 600 190 L 600 270 L 620 270" fill="none" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Node 4a: Spatial Statistics (Top) -->
+    <g transform="translate(620, 70)">
+      <rect width="150" height="80" rx="8" fill="url(#boxGrad)" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="0" y="0" width="150" height="6" fill="url(#accent4)" rx="3" />
+      <text x="75" y="35" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">Spatial Stats</text>
+      <text x="75" y="55" font-size="11" fill="#64748b" text-anchor="middle">Neighborhoods &amp; Moran's I</text>
+      <text x="75" y="70" font-size="10" fill="#94a3b8" text-anchor="middle">Squidpy</text>
+    </g>
+
+    <!-- Node 4b: Advanced Modeling (Bottom) -->
+    <g transform="translate(620, 230)">
+      <rect width="150" height="80" rx="8" fill="url(#boxGrad)" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="0" y="0" width="150" height="6" fill="url(#accent5)" rx="3" />
+      <text x="75" y="35" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">Advanced Analysis</text>
+      <text x="75" y="55" font-size="11" fill="#64748b" text-anchor="middle">GSEA &amp; Comm. (LIANA)</text>
+      <text x="75" y="70" font-size="10" fill="#94a3b8" text-anchor="middle">LIANA / GSEApy</text>
+    </g>
+
+    <!-- Path Merge -->
+    <path d="M 770 110 L 800 110 L 800 190 L 820 190" fill="none" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)" />
+    <path d="M 770 270 L 800 270 L 800 190" fill="none" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Node 5: Integration & Deconvolution -->
+    <g transform="translate(820, 150)">
+      <rect width="140" height="80" rx="8" fill="url(#boxGrad)" filter="url(#shadow)" stroke="#e2e8f0" stroke-width="1.5" />
+      <rect x="0" y="0" width="140" height="6" fill="url(#accent1)" rx="3" />
+      <text x="70" y="35" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">Multi-Omics</text>
+      <text x="70" y="55" font-size="11" fill="#64748b" text-anchor="middle">Deconvolution</text>
+      <text x="70" y="70" font-size="10" fill="#94a3b8" text-anchor="middle">Tangram</text>
+    </g>
+
+  </g>
+</svg>

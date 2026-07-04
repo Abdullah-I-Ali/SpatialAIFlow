@@ -1,0 +1,28 @@
+# ==============================================================================
+# SpatialAIFlow — Runtime Dependencies
+# ==============================================================================
+# Extracted from the notebook's imports. Install with:
+#   pip install -r requirements.txt
+#
+# For optional section-specific dependencies, use:
+#   pip install -e ".[all]"       (all optional extras)
+#   pip install -e ".[dev]"       (development tools)
+# ==============================================================================
+
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+
+# Single-cell / spatial ecosystem
+anndata>=0.9
+scanpy>=1.9
+squidpy>=1.3
+
+# --- Section-specific (uncomment as needed) ---
+# liana>=0.1              # A 15: Ligand-receptor communication
+# gseapy>=1.0             # §18: Pathway enrichment (GSEA)
+# celltypist>=1.5         # §19: Automated cell-type annotation
+# tangram-sc>=1.0         # §24: Multi-omics spatial deconvolution
+# scikit-learn>=1.2       # §23: ML cell-type classifier
+# joblib>=1.2             # §23: Model serialization

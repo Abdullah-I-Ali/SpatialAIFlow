@@ -1,0 +1,75 @@
+# ==============================================================================
+# SpatialAIFlow .gitignore
+# ==============================================================================
+
+# ---- Python bytecode & packaging ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ---- IDE / Editor ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ---- OS artifacts ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ---- Testing & coverage ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Documentation build ----
+docs/_build/
+docs/generated/
+
+# ---- Data & outputs (large files, downloaded/generated at runtime) ----
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# ---- Model artifacts ----
+*.pkl
+*.joblib
+*.h5
+*.h5ad
+
+# ---- Logs ----
+*.log
+
+# ---- Environment files with secrets ----
+.env
+.env.*
