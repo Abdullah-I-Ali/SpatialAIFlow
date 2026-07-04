@@ -227,7 +227,7 @@ If you use SpatialAIFlow in your teaching or research, please cite:
 
 ```bibtex
 @software{SpatialAIFlow2026,
-  author = {Your Name},
+  author = {Abdullah I Ali},
   title = {SpatialAIFlow: An End-to-End Educational Pipeline for Spatial Transcriptomics},
   year = {2026},
   url = {https://github.com/username/SpatialAIFlow}
