@@ -217,9 +217,26 @@ SpatialAIFlow is proudly built upon the modern open-source scientific Python eco
 
 ---
 
-## 📚 Documentation
+# 📚 Documentation
 
-Detailed documentation, API references, and extended tutorials are available at our [Documentation Site (Coming Soon)](#).
+SpatialAIFlow is fully documented through its interactive Jupyter Notebook.
+
+The notebook serves as the official documentation, tutorial, and educational guide for the project.
+
+It covers:
+
+- Biological Background
+- Computational Background
+- Step-by-step Pipeline
+- Python Implementation
+- Biological Interpretation
+- Common Mistakes
+- Exercises
+- Further Reading
+
+## 🚀 Start Learning
+
+➡️ **notebooks/SpatialAIFlow.ipynb**
 
 ## 🖋️ Citation
 
