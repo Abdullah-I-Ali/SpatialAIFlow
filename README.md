@@ -224,11 +224,13 @@ SpatialAIFlow is proudly built upon the modern open-source scientific Python eco
 
 ---
 
-# 📚 Documentation
+## 📖 Interactive Documentation
 
-SpatialAIFlow is fully documented through its interactive Jupyter Notebook.
+> 🚀 **Read the complete SpatialAIFlow tutorial online**
 
-The notebook serves as the official documentation, tutorial, and educational guide for the project.
+- 🌐 **NBViewer:** https://nbviewer.org/github/Abdullah-I-Ali/SpatialAIFlow/blob/main/notebooks/SpatialAIFlow.ipynb
+- 🚀 **Open in Google Colab:** https://colab.research.google.com/github/Abdullah-I-Ali/SpatialAIFlow/blob/main/notebooks/SpatialAIFlow.ipynb
+- 💻 **Browse on GitHub:** `notebooks/SpatialAIFlow.ipynb` as the official documentation, tutorial, and educational guide for the project.
 
 It covers:
 
