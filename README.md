@@ -43,6 +43,7 @@
 > 📖 **[Interactive Notebook Documentation →](./notebooks/SpatialAIFlow.ipynb)**
 
 The notebook contains the complete educational workflow, biological explanations, computational theory, and hands-on implementation.
+>
 
 ## 💡 Why SpatialAIFlow?
 
