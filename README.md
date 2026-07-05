@@ -14,6 +14,8 @@
 
 ---
 
+## 🚀 Overview
+
 **SpatialAIFlow** is a comprehensive, production-ready educational repository designed to bridge the gap between complex spatial transcriptomics data and modern computational analysis. Built for beginners, graduate students, and researchers, this project demonstrates a complete, scientifically rigorous workflow using the state-of-the-art `scverse` ecosystem (Scanpy, Squidpy), seamlessly bridging biology, computer vision, and machine learning.
 
 ---
