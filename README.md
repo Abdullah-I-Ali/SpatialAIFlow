@@ -38,13 +38,6 @@
 
 ---
 
-## 🚀 Start Here
-
-> 📖 **[Interactive Notebook Documentation →](./notebooks/SpatialAIFlow.ipynb)**
-
-The notebook contains the complete educational workflow, biological explanations, computational theory, and hands-on implementation.
->
-
 ## 💡 Why SpatialAIFlow?
 
 Spatial transcriptomics preserves the geographical organization of cells within a tissue, unlocking unprecedented insights into cell-cell communication, tumor microenvironments, and tissue architecture. However, analyzing these datasets requires domain knowledge spanning **Bioinformatics**, **Machine Learning**, and **Computer Vision**. 
