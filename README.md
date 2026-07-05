@@ -37,13 +37,13 @@
 </details>
 
 ---
+
 ## 🚀 Start Here
 
-If this is your first time visiting SpatialAIFlow, begin with the interactive notebook.
+> 📖 **[Interactive Notebook Documentation →](./notebooks/SpatialAIFlow.ipynb)**
 
-📓 **notebooks/SpatialAIFlow.ipynb**
+The notebook contains the complete educational workflow, biological explanations, computational theory, and hands-on implementation.
 
-It contains the complete end-to-end educational workflow for Spatial Transcriptomics and Single-Cell AI analysis.
 ## 💡 Why SpatialAIFlow?
 
 Spatial transcriptomics preserves the geographical organization of cells within a tissue, unlocking unprecedented insights into cell-cell communication, tumor microenvironments, and tissue architecture. However, analyzing these datasets requires domain knowledge spanning **Bioinformatics**, **Machine Learning**, and **Computer Vision**. 
